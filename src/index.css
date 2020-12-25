@@ -133,6 +133,11 @@ nav ul li a:hover {
   padding: 20px;
   border: none;
   cursor: pointer;
+  transition: 0.2s;
+}
+
+.trending-card:hover {
+  opacity: 75%;
 }
 
 /* Footer */
@@ -237,7 +242,7 @@ footer {
   width: 400px;
   /* text-align: center; */
   background-color: rgb(210, 243, 241);
-  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1); */
   border: none;
   outline: none;
 }
@@ -284,10 +289,16 @@ footer {
   align-items: center;
   cursor: pointer;
 }
+
 .category-item-div img {
   height: 100%;
   width: 100%;
   opacity: 75%;
+  transition: 0.2s;
+}
+
+.category-item-div img:hover {
+  opacity: 50%;
 }
 
 .category-child-div {

@@ -8,7 +8,7 @@ export default class Nav extends Component {
         <nav>
           <a href="#" className="logo">
             {/* <img src="images/logo.png" /> */}
-            <h1>XHOPY</h1>
+            <h2>XHOPY</h2>
           </a>
           {/* <label className="menu-icon" for="menu-btn">
             <span className="nav-icon"></span>

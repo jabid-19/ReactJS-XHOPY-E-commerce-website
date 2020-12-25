@@ -1,5 +1,5 @@
 html {
-  font-size: 92.5%;
+  font-size: 95.5%;
   box-sizing: border-box;
 }
 
@@ -30,7 +30,7 @@ a {
 }
 a:hover {
   text-decoration: none;
-  color: #babce7;
+  color: #9ad4e2;
 }
 
 .logo {
@@ -41,7 +41,7 @@ a:hover {
 }
 
 .cart {
-  height: 20px;
+  height: 25px;
 }
 
 nav {
@@ -85,7 +85,6 @@ nav ul li a:hover {
 }
 
 /* Hero */
-
 .hero {
   display: flex;
   flex-direction: row;
@@ -93,12 +92,12 @@ nav ul li a:hover {
   align-items: center;
   padding: 10px;
   height: 100vh;
-  /* background-color: rgb(226, 247, 247); */
+  background-color: rgb(226, 247, 247);
 }
 
 #heroText {
   position: absolute;
-  padding-left: 100px;
+  /* padding-left: 100px; */
 
   /* padding: 10px; */
 }
@@ -137,7 +136,6 @@ nav ul li a:hover {
 }
 
 /* Footer */
-
 footer {
   background-color: #353745;
   display: flex;
@@ -244,6 +242,7 @@ footer {
   outline: none;
 }
 
+/* Category */
 .category {
   display: flex;
   flex-direction: column;

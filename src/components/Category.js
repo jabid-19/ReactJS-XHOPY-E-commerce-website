@@ -10,8 +10,8 @@ export default class Category extends Component {
             <Col md={1}></Col>
             <Col md={10}>
               <div className="category">
-                <h1>Shop by Categories</h1>
-                <h3 className="mt-4">Top categories in this week</h3>
+                <h2>Shop by Categories</h2>
+                <h5 className="mt-4">Top categories in this week</h5>
                 <div className="category-div mt-4">
                   <div className="category-item-div box1">
                     <img src="images/woman.jpg" alt="" />
